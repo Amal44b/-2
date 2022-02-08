@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+    #borderimg{
+    border: 30px solid;
+    padding: 15px;
+    border-image: url(ling2.webp) 30% round;
+    }
+         body{
+             background-color: lightgoldenrodyellow;
+         }
+    </style>
+    </head>
+
+   <!-- <p id="borderimg">KiM taehyung the bast</p> -->
+<body>
+    <h2>مرحبا بك</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+اضغط هنا لمعرفة التاريخ والوقت.</button>
+
+<p id="demo"></p>
+<form method="get" id="borderimg">
+   <label>ادخل اسم المستخدم</label>
+    <input type="text" required />
+    <input type="submit"/>
+    <br/>
+    <label>ادخل البريد الاكتروني</label>
+    <input type="email" placeholder="aaa5544@gmail.com" autocomplete="on" />
+    <input type="submit"/>
+    <br/>
+    <label>ادخل الرمز السري</label>
+    <input type="password" required />
+    <input type="submit"/>
+    <br/>
+    <label>ادخل تاريخ الميلاد</label>
+    <input type="date" />
+    <input type="submit"/>
+</form>    
+    
+    
+    
+    </body>
+</html>
